@@ -6,9 +6,12 @@ Copyright 2015-2017
 Released under the MIT license.
 """
 
-import smbus
+# using smbus2
+import smbus2 as smbus
 import math
-from time import sleep
+# from time import sleep
+# using gevent
+from gevent import sleep
 
 class bmp180:
     # Global variables
